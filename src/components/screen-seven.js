@@ -7,7 +7,7 @@ import "./screen-seven.css";
 const ScreenSeven = (props) => {
   return (
     <div
-      id="bolsa laboral"
+      id="bolsa-laboral"
       className={`screen-seven-container1 ${props.rootClassName} `}
     >
       <div className="screen-seven-container2">

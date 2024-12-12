@@ -21,7 +21,7 @@ const Home = (props) => {
       <Helmet>
         <title>Kapuy soluciones</title>
         <meta property="og:title" content="Kapuy soluciones" />
-        <link rel="icon" href="/favicon.png" type="image/x-icon" /> 
+        <link rel="icon" href="/favicon.png" type="image/x-icon" />
       </Helmet>
       <nav className="home-navbar">
         <nav className="home-container2">
@@ -44,10 +44,10 @@ const Home = (props) => {
             <a href="#inicio">Inicio</a>
             <a href="#nosotros">Nosotros</a>
 
-            <a href="#nuestro valor">Nuestro valor</a>
+            <a href="#nuestro-valor">Nuestro valor</a>
             <a href="#soluciones">Soluciones</a>
             <a href="#servicios">Servicios</a>
-            <a href="#bolsa laboral">Bolsa laboral</a>
+            <a href="#bolsa-laboral">Bolsa laboral</a>
           </div>
           <img
             onClick={() => setIsMenu(true)}
@@ -126,7 +126,7 @@ const Home = (props) => {
                 borderBottomColor: "white",
               }}
               onClick={() => setIsMenu(false)}
-              href="#nuestro valor"
+              href="#nuestro-valor"
             >
               Nuestro valor
             </a>
@@ -159,7 +159,7 @@ const Home = (props) => {
                 borderBottomColor: "white",
               }}
               onClick={() => setIsMenu(false)}
-              href="#bolsa laboral"
+              href="#bolsa-laboral"
             >
               Bolsa laboral
             </a>
@@ -168,7 +168,14 @@ const Home = (props) => {
       )}
       <div className="home-container5"></div>
       <div className="home-container6">
-        <video className="background-video" autoPlay loop muted playsInline style={{pointerEvents:"none"}}>
+        <video
+          className="background-video"
+          autoPlay
+          loop
+          muted
+          playsInline
+          style={{ pointerEvents: "none" }}
+        >
           <source src={"vheader.mp4"} type="video/mp4" />
           Your browser does not support the video tag.
         </video>

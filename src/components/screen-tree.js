@@ -7,7 +7,7 @@ import "./screen-tree.css";
 const ScreenTree = (props) => {
   return (
     <div
-      id="nuestro valor"
+      id="nuestro-valor"
       className={`screen-tree-container1 ${props.rootClassName} `}
     >
       <video
