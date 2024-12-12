@@ -1,0 +1,222 @@
+.screen-six-container1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  padding: 10%;
+  position: relative;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-sixunits);
+  padding-left: var(--dl-space-space-sixunits);
+  padding-right: var(--dl-space-space-sixunits);
+  padding-bottom: var(--dl-space-space-sixunits);
+  justify-content: center;
+  background-color: #f4f1ec;
+}
+.screen-six-container2derechaLabel {
+  width: 70%;
+  margin-bottom: 1%;
+  font-weight: 600;
+}
+.screen-six-container2derechaInput {
+  width: 70%;
+  height: 30px;
+  border-radius: 8px;
+  padding: 0 1%;
+}
+.screen-six-container2derecha {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1450px;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+}
+.screen-six-container2 {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1450px;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+}
+.screen-six-container3 {
+  flex: 0 0 auto;
+  width: 50%;
+  height: auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: space-between;
+}
+.screen-six-container4 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  flex-direction: column;
+}
+.screen-six-container5 {
+  flex: 0 0 auto;
+  height: auto;
+  display: flex;
+  max-width: 430px;
+  align-self: center;
+  align-items: center;
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: space-between;
+}
+.error-message {
+  width: 65%;
+  margin-top: 1%;
+  font-size: small;
+}
+.screen-six-container6 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  flex-direction: column;
+}
+.screen-six-container7 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  flex-direction: column;
+}
+.screen-six-inputlabel {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.screen-six-button {
+  text-align: center;
+  width: 70%;
+  cursor: pointer;
+  border-width: 0px;
+  border-radius: var(--dl-radius-radius-imageradius);
+  padding: 12px 85px;
+  background-color: #2f496e;
+  /* Añadir transición para suavizar el cambio */
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.screen-six-button:hover {
+  /* Agrandar el botón en un 10% al hacer hover */
+  transform: scale(1.05);
+  /* Cambiar el color de fondo si lo deseas */
+  background-color: #1f3650; /* Color de fondo en hover (opcional) */
+}
+.screen-six-text14 {
+  color: rgb(5, 10, 47);
+  width: 400px;
+  display: inline-block;
+  font-size: 30px;
+  max-width: 400px;
+  text-align: center;
+  line-height: 1.5;
+}
+.screen-six-text15 {
+  font-style: normal;
+  font-weight: 600;
+}
+.screen-six-text17 {
+  color: #f3f3f3;
+  display: inline-block;
+}
+.screen-six-text18 {
+  color: #222344;
+  display: inline-block;
+  font-size: 15px;
+  text-align: center;
+  line-height: 1.5;
+}
+.screen-six-text19 {
+  color: #222344;
+  display: inline-block;
+  font-size: 15px;
+  text-align: center;
+  line-height: 1.5;
+}
+.screen-six-text20 {
+  font-style: normal;
+  font-weight: 600;
+}
+.screen-sixroot-class-name {
+  min-height: 700px;
+}
+@media (max-width: 991px) {
+  .screen-six-container1 {
+    flex-direction: column;
+    gap: 45px;
+  }
+
+  .screen-six-container2 {
+    gap: var(--dl-space-space-twounits);
+  }
+  .screen-six-container3 {
+    width: 100%;
+    padding-right: 0px;
+  }
+  .screen-six-container5 {
+    width: 100%;
+    padding-right: 0px;
+  }
+  .screen-six-text14 {
+    width: 100%;
+    max-width: 100%;
+  }
+  .screen-six-text18 {
+    width: 100%;
+    max-width: 100%;
+  }
+  .screen-six-text19 {
+    width: 100%;
+    max-width: 100%;
+  }
+  .screen-six-container2 {
+    width: 80%;
+  }
+  .screen-six-container2derecha {
+    width: 100%;
+  }
+  .screen-six-container1 {
+    padding: 10% 5%;
+  }
+}
+@media (max-width: 479px) {
+  .screen-six-container1 {
+    padding-top: 15%;
+    padding-bottom: 15%;
+    padding: 15% 0;
+  }
+  .screen-six-container2derechaLabel {
+    width: 90%;
+  }
+  .screen-six-container2derechaInput {
+    width: 90%;
+  }
+  .screen-six-button {
+    width: 90%;
+  }
+}

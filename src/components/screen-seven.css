@@ -1,0 +1,198 @@
+.screen-seven-container1 {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  padding: 0%;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #bbc5de;
+}
+.screen-seven-container2 {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: 60%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1450px;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+}
+.screen-seven-container3 {
+  flex: 0 0 auto;
+  width: 50%;
+  height: auto;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: space-between;
+}
+.screen-seven-container4 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  flex-direction: column;
+}
+.screen-seven-container5 {
+  flex: 0 0 auto;
+  width: 50%;
+  height: auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: space-between;
+}
+.screen-seven-container6 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  flex-direction: column;
+}
+.screen-seven-container7 {
+  flex: 0 0 auto;
+  width: auto;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  flex-direction: column;
+}
+.screen-seven-button {
+  margin-top: 6%;
+  width: 50%;
+  text-align: center;
+  padding-top: var(--dl-space-space-unit);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-threeunits);
+  border-radius: var(--dl-radius-radius-imageradius);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: #f1f1f0;
+  /* Añadir transición para suavizar el cambio */
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.screen-seven-button:hover {
+  /* Agrandar el botón en un 10% al hacer hover */
+  transform: scale(1.05);
+  /* Cambiar el color de fondo si lo deseas */
+  background-color: #f1f1f1; /* Color de fondo en hover (opcional) */
+}
+.screen-seven-container8 {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1450px;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.screen-seven-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.screen-seven-text13 {
+  color: rgb(5, 10, 47);
+  width: auto;
+  display: inline-block;
+  font-size: 30px;
+  max-width: 100%;
+  font-style: normal;
+  text-align: left;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.screen-seven-text16 {
+  color: rgb(51, 51, 51);
+  display: inline-block;
+  font-style: normal;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.screen-seven-text17 {
+  color: rgb(34, 35, 68);
+  display: inline-block;
+  font-size: 15px;
+  text-align: left;
+  line-height: 1.5;
+}
+
+@media (max-width: 991px) {
+  .screen-seven-container2 {
+    gap: var(--dl-space-space-twounits);
+  }
+  .screen-seven-container3 {
+    width: 50%;
+    padding-right: 0px;
+  }
+  .screen-seven-container5 {
+    width: 50%;
+    padding-right: 0px;
+  }
+  .screen-seven-container8 {
+    gap: var(--dl-space-space-twounits);
+  }
+  .screen-seven-text13 {
+    width: 100%;
+    max-width: 100%;
+  }
+  .screen-seven-text17 {
+    width: auto;
+    max-width: auto;
+  }
+}
+@media (max-width: 767px) {
+  .screen-seven-container1 {
+    gap: var(--dl-space-space-unit);
+    height: auto;
+    padding: 5%;
+    flex-direction: column;
+  }
+  .screen-seven-container2 {
+    width: 100%;
+  }
+  .screen-seven-container3 {
+    width: 100%;
+  }
+  .screen-seven-container5 {
+    width: 100%;
+  }
+  .screen-seven-container6 {
+    width: 100%;
+  }
+  .screen-seven-container8 {
+    width: 100%;
+    max-width: auto;
+  }
+  .screen-seven-image {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 479px) {
+  .screen-seven-container1 {
+    padding-top: 15%;
+    padding-bottom: 15%;
+  }
+  .screen-seven-button {
+    width: 100%;
+  }
+}

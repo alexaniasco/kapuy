@@ -1,0 +1,127 @@
+.screen-five-container1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 10%;
+  position: relative;
+  min-height: 900px;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-sixunits);
+  padding-left: var(--dl-space-space-sixunits);
+  padding-right: var(--dl-space-space-sixunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-sixunits);
+  justify-content: center;
+  background-color: #2f496e;
+}
+.screen-five-container2 {
+  flex: 0 0 auto;
+  width: 100%;
+  padding: 0 10%;
+  height: auto;
+  gap: 35px;
+  display: flex;
+  max-width: 1450px;
+  align-self: center;
+  align-items: center;
+}
+.screen-five-container3 {
+  flex: 0 0 auto;
+  width: 50%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.screen-five-container4 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  padding-top: 0px;
+  justify-content: center;
+}
+.screen-five-container5 {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-inputradius);
+  background-size: cover;
+  justify-content: center;
+  background-image: url("https://play.teleporthq.io/static/svg/default-img.svg");
+  background-position: center;
+}
+.screen-five-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-inputradius);
+}
+.screen-five-container6 {
+  flex: 0 0 auto;
+  width: 50%;
+  height: auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: space-between;
+}
+.screen-five-container7 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  flex-direction: column;
+}
+.screen-five-text2 {
+  color: #ffffff;
+  width: 400px;
+  display: inline-block;
+  font-size: 15px;
+  max-width: 400px;
+  text-align: right;
+  line-height: 1.5;
+}
+.screen-fiveroot-class-name {
+  min-height: 800px;
+}
+@media (max-width: 991px) {
+  .screen-five-container2 {
+    gap: var(--dl-space-space-twounits);
+    flex-wrap: wrap;
+    padding: 0;
+  }
+  .screen-five-container3 {
+    width: 100%;
+    min-width: auto;
+  }
+  .screen-five-container5 {
+    width: 100%;
+    height: auto;
+  }
+  .screen-five-container6 {
+    width: 100%;
+    padding-right: 0px;
+  }
+  .screen-five-text2 {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+@media (max-width: 479px) {
+  .screen-five-container2 {
+    padding: 0;
+  }
+  .screen-five-container1 {
+    padding-top: 15%;
+    padding-bottom: 15%;
+    padding: 15% 5%;
+  }
+}

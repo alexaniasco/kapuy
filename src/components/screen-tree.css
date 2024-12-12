@@ -1,0 +1,123 @@
+.screen-tree-container1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 5%;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.screen-tree-container2 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1450px;
+  align-self: center;
+  align-items: flex-start;
+}
+.background-video2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+.screen-tree-container3 {
+  flex: 0 0 auto;
+  width: 50%;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  padding-top: 6%;
+  flex-direction: column;
+  justify-content: center;
+}
+.screen-tree-container4 {
+  flex: 0 0 auto;
+  width: 430px;
+  height: auto;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  padding-left: 0px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  justify-content: flex-end;
+}
+.screen-tree-container5 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  padding-left: 0px;
+  flex-direction: column;
+}
+.screen-tree-container6 {
+  flex: 0 0 auto;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.screen-tree-image {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+.screen-tree-text12 {
+  color: rgb(187, 197, 222);
+  display: inline-block;
+  font-size: 40px;
+  font-style: normal;
+  margin-top: 0px;
+  font-weight: 600;
+}
+.screen-tree-text16 {
+  color: #ffffff;
+  width: auto;
+  display: inline-block;
+  font-size: 16px;
+  max-width: 430px;
+  text-align: justify;
+  line-height: 1.3;
+}
+
+@media (max-width: 991px) {
+  .screen-tree-container1 {
+    height: auto;
+  }
+  .screen-tree-container2 {
+    flex-direction: row;
+  }
+  .screen-tree-container3 {
+    width: 100%;
+  }
+  .screen-tree-container4 {
+    width: 100%;
+  }
+  .screen-tree-container6 {
+    width: 100%;
+    align-self: center;
+  }
+  .screen-tree-text16 {
+    max-width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .screen-tree-container1 {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .screen-tree-image {
+    min-width: 200px;
+  }
+}

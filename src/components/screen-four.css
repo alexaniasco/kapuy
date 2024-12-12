@@ -1,0 +1,183 @@
+.screen-four-container1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 10%;
+  position: relative;
+  min-height: 900px;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-sixunits);
+  padding-left: var(--dl-space-space-sixunits);
+  padding-right: var(--dl-space-space-sixunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-sixunits);
+  background-size: cover;
+  justify-content: center;
+  /* background-image: url("/ass3-1500w.png"); */
+}
+.background-video3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  filter: brightness(80%); /* Reduce el brillo al 50% para oscurecer el video */
+}
+.screen-four-container2 {
+  padding: 0 10%;
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  gap: 35px;
+  display: flex;
+  max-width: 1450px;
+  align-self: center;
+  align-items: center;
+}
+.screen-four-container3 {
+  gap: var(--dl-space-space-threeunits);
+  flex: 0 0 auto;
+  width: 50%;
+  height: auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: center;
+}
+.screen-four-container4 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  max-width: 400px;
+  align-items: flex-start;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  flex-direction: column;
+  padding-bottom: 0px;
+  justify-content: flex-end;
+}
+.screen-four-container5 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  flex-direction: column;
+}
+.screen-four-container6 {
+  flex: 0 0 auto;
+  width: 50%;
+  height: auto;
+  display: flex;
+  min-width: 390px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.screen-four-container7 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  padding-top: 0px;
+  justify-content: center;
+}
+.screen-four-container8 {
+  width: 450px;
+  height: 266px;
+  display: flex;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-inputradius);
+  background-size: cover;
+  justify-content: center;
+  /* background-image: url("https://play.teleporthq.io/static/svg/default-img.svg"); */
+  background-position: center;
+}
+.screen-four-container9 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-inputradius);
+  /* background-image: url("/ass4-1500w.png"); */
+}
+.screen-four-text3 {
+  color: #ffffff;
+  display: inline-block;
+  font-size: 35.5px;
+  font-style: normal;
+  font-weight: 600;
+}
+.screen-four-text4 {
+  color: #ffffff;
+  width: 400px;
+  display: inline-block;
+  font-size: 15px;
+  max-width: 400px;
+  text-align: justify;
+  line-height: 1.5;
+}
+.screen-fourroot-class-name {
+  min-height: 800px;
+}
+@media (max-width: 991px) {
+  .screen-four-container1 {
+    padding: 25% 5%;
+  }
+  .screen-four-container2 {
+    flex-wrap: wrap;
+  }
+  .screen-four-container5 {
+    padding-bottom: 15%;
+  }
+  .screen-four-container3 {
+    width: 100%;
+    padding-right: 0px;
+    padding-bottom: var(--dl-space-space-unit);
+  }
+  .screen-four-container4 {
+    max-width: 100%;
+  }
+  .screen-four-container6 {
+    width: 100%;
+    min-width: auto;
+  }
+  .screen-four-container8 {
+    width: 100%;
+    height: 266px;
+  }
+  .screen-four-container9 {
+    height: 400px;
+    background-size: cover;
+    background-image: url("../../public/ass4-1500w.png");
+  }
+  .screen-four-text4 {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+@media (max-width: 767px) {
+}
+@media (max-width: 479px) {
+  .screen-four-container9 {
+    height: 300px;
+  }
+  .screen-four-container1 {
+    padding-top: 15%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 15%;
+  }
+  .screen-four-container2 {
+    padding: 0;
+  }
+}

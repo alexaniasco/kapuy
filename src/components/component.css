@@ -1,0 +1,226 @@
+.component-container1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-top: 10%;
+  flex-direction: column;
+  padding-bottom: 10%;
+  background-size: cover;
+  justify-content: space-between;
+  background-image: url("./../../ass2-1500w.png");
+  background-position: center;
+}
+.component-container2 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-fourunits);
+  flex-direction: column;
+  justify-content: center;
+}
+.component-container3 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-twounits);
+  border-radius: 30px;
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: center;
+  background-color: #454269;
+}
+.component-container4 {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  max-width: 1400px;
+  align-items: flex-start;
+  justify-content: center;
+  min-height: 300px;
+}
+
+.card {
+  width: 30%;
+  height: 300px;
+  display: flex;
+  perspective: 1000px; /* Permite el efecto 3D */
+  cursor: pointer;
+  position: relative;
+}
+
+.card-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d; /* Necesario para el 3D */
+  transition: transform 0.8s ease-in-out; /* Suaviza la transición */
+}
+
+.card.flipped .card-inner {
+  transform: rotateY(180deg); /* Rota la tarjeta completa 180 grados */
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden; /* Oculta la cara trasera cuando está girada */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-front {
+  /* Parte frontal */
+}
+
+.card-back {
+  transform: rotateY(180deg); /* La parte trasera está inicialmente girada */
+  position: absolute;
+  color: #333;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-info {
+  font-size: 1rem;
+  text-align: center;
+  color: #555;
+}
+.component-container5 {
+  gap: var(--dl-space-space-twounits);
+  flex: 0 0 auto;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  border-color: #ffffff;
+  border-width: 2px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-buttonradius);
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.component-container6 {
+  gap: var(--dl-space-space-twounits);
+  flex: 0 0 auto;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  border-color: #ffffff;
+  border-width: 2px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-buttonradius);
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.component-container7 {
+  gap: var(--dl-space-space-twounits);
+  flex: 0 0 auto;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  border-color: #ffffff;
+  border-width: 2px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-buttonradius);
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.component-text17 {
+  color: #bbc5de;
+  display: inline-block;
+  font-size: 31px;
+  font-style: normal;
+  font-weight: 700;
+}
+.component-text18 {
+  fill: var(--dl-color-theme-secondary1);
+  color: var(--dl-color-theme-secondary1);
+  display: inline-block;
+  font-size: 23px;
+  text-align: center;
+}
+.component-text22 {
+  fill: var(--dl-color-theme-secondary1);
+  color: var(--dl-color-theme-secondary1);
+  display: inline-block;
+  font-size: 23px;
+  text-align: center;
+}
+.component-text25 {
+  fill: var(--dl-color-theme-secondary1);
+  color: var(--dl-color-theme-secondary1);
+  display: inline-block;
+  text-align: center;
+  line-height: 1.5;
+}
+.component-text26 {
+  fill: var(--dl-color-theme-secondary1);
+  color: var(--dl-color-theme-secondary1);
+  display: inline-block;
+  text-align: center;
+  line-height: 1.5;
+}
+.component-text29 {
+  fill: var(--dl-color-theme-secondary1);
+  color: var(--dl-color-theme-secondary1);
+  display: inline-block;
+  font-size: 23px;
+  text-align: center;
+}
+.component-text32 {
+  fill: var(--dl-color-theme-secondary1);
+  color: var(--dl-color-theme-secondary1);
+  display: inline-block;
+  text-align: center;
+  line-height: 1.5;
+}
+.componentroot-class-name {
+  background-color: transparent;
+}
+@media (max-width: 991px) {
+  .component-container4 {
+    padding-left: 5%;
+    padding-right: 5%;
+    flex-direction: column;
+  }
+  .component-container1 {
+    padding: 25% 0;
+  }
+  .component-container5 {
+    width: 100%;
+  }
+  .component-container6 {
+    width: 100%;
+  }
+  .component-container7 {
+    width: 100%;
+  }
+  .card {
+    width: 100%;
+  }
+}
